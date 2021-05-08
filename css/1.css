@@ -1,0 +1,435 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*start navbar*/
+ .bg-primary
+{
+    background-color: rgba(94, 53, 177,0.7)!important;
+}
+
+.navbar-dark .navbar-brand /*navbar brand*/
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+.navbar-nav
+{
+    margin: auto;
+}
+.navbar-dark .navbar-nav .nav-link /*nav link*/
+ {
+    color: rgba(255,255,255,.5);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.navbar-dark .navbar-nav .nav-item .btn
+{
+    margin-left: 44px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    background-color: #6200EA;
+    border: none;
+}
+.navbar-dark .navbar-nav .nav-item .btn:hover
+{
+    border:5px solid #311B92;
+}
+/*end navbar*/
+
+/*start slider*/
+.carousel
+{
+    margin-bottom: 40px;
+}
+.carousel .carousel-indicators li
+{
+    background-color:#4527A0 ;
+}
+.carousel .carousel-inner .carousel-item h1
+{
+    text-transform: capitalize;
+    color: #4527A0;
+    font-size: 80px;
+}
+.carousel .carousel-inner .carousel-item p
+{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.carousel .carousel-inner .carousel-item .btn
+{
+    margin-left: 44px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    background-color: #6200EA;
+    border: none;
+}
+.carousel .carousel-inner .carousel-item .btn:hover
+{
+    border:5px solid #311B92;
+}
+/*end slider*/
+
+/*start our food*/
+.our-food
+{
+    margin-bottom: 40px;
+}
+.our-food fieldset
+{
+    border-top: 3px solid #6200EA;
+}
+.our-food fieldset legend
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #311B92;
+    width: 20%;
+}
+
+.our-food fieldset .food-item h2
+{
+    text-transform: capitalize;
+}
+.our-food fieldset .images .a
+{
+    background-color: #4527A0;
+    height: 167px;
+    width: 100%;
+}
+.our-food fieldset .images  img
+{
+    height: 170px;
+    margin-bottom: 20px;
+}
+.our-food fieldset .images 
+{
+    
+}
+.our-food fieldset .images .img-one:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate3d(1, 1, 1, 35deg);
+}
+.our-food fieldset .images .img-two:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate3d(1, 1, 1, -35deg);
+}
+.our-food fieldset .images .img-three:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: skewX(10deg);
+}
+
+.our-food fieldset .images .img-four:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: skewX(-10deg);
+}
+/*end our food*/
+
+/*start our servies*/
+.our-services fieldset
+{
+    border-top: 3px solid #6200EA;
+}
+.our-services fieldset legend
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #311B92;
+    width: 20%;
+}
+.our-services fieldset h2
+{
+    text-transform: capitalize;
+}
+.our-services fieldset .services-icon
+{
+    display: flex;
+    justify-content: space-between;
+}
+.our-services fieldset .xc:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: translateX(-40px);
+}
+.our-services fieldset .services-icon  img:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate(360deg);
+}
+.our-services fieldset .services-icon p{
+    text-transform: capitalize;
+}
+.our-services fieldset .services-icon span
+{
+    color: #311B92;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/*end our servies*/
+
+/*start our process*/
+.our-process
+{
+    background-image: linear-gradient(rgba(69, 39, 160,0.4),rgba(149, 117, 205,0.4));
+    margin-bottom: 40px;
+    padding-left: 60px;
+}
+.our-process h1
+{
+    text-transform: capitalize;
+}
+.our-process p
+{
+    text-transform: capitalize;
+    color: #4527A0;
+}
+.our-process img:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: translateX(23px);
+
+}
+
+/*end our process*/
+
+/*start about*/
+.about-us
+{
+    background-image: linear-gradient(rgba(69, 39, 160,0.5),rgba(94, 53, 177,0.5)),url("../img/103.jpg");
+    height: 600px;
+    background-size: cover;
+    padding-left: 40px;
+   margin-bottom: 60px;
+}
+.about-us h1
+{
+    text-transform: capitalize;
+}
+..about-us p
+{
+    text-transform: capitalize;
+}
+.about-us .about-one
+{
+    position: relative;
+    left: 109px;
+    top: 51px;
+}
+.about-us .about-one:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: skew(10deg, 10deg);
+}
+.about-us .about-three
+{
+    width: 300px;
+    position: relative;
+    left: -201px;
+    top: -67px;
+}
+.about-us .about-two:hover
+{
+    position: relative;
+    z-index: 999;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate(45deg)
+}
+.about-us .about-three:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: skew(-10deg, -10deg);
+}
+/*start about*/
+
+/*start our category*/
+.our-category fieldset
+{
+    border-top: 3px solid #6200EA;
+}
+.our-category fieldset legend
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #311B92;
+    width: 20%;
+}
+.our-category fieldset .cat-one
+{
+    margin-bottom: 20px;
+}
+
+.our-category fieldset  .aa:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate(-45deg);
+}
+.our-category fieldset  .bb:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear; 
+    transform: skew(10deg, 12deg);
+ 
+}
+.our-category fieldset  .cc:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate(45deg);
+}
+/*end our category*/
+
+
+/*start our prices*/
+.our-prices
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.our-prices fieldset
+{
+    border-top: 3px solid #6200EA;
+}
+.our-prices fieldset legend
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #311B92;
+    width: 20%;
+}
+.our-prices fieldset .price-one
+{
+    border: 3px solid #D1C4E9;
+}
+.our-prices fieldset .price-one h2
+{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.our-prices fieldset .price-one p
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: #651FFF;
+    width: 16%;
+    border-radius: 50%;
+    height: 47px;
+    display: block;
+    margin: auto;
+}
+.our-prices fieldset .price-one p:hover
+{
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform: rotate(360deg);
+}
+.our-prices fieldset .price-one .price-details
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.our-prices fieldset .price-one .price-details ul
+{
+    list-style-type: none;
+} 
+.our-prices fieldset .price-one .price-details ul li
+{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.our-prices fieldset .price-one .btn
+{
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    background-color: #6200EA;
+    border: none;
+}
+/*end our prices*/
+
+
+/*start footer*/
+.footer
+{
+    background-color: rgba(94, 53, 177,0.7)!important;
+}
+.footer h1
+{
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer .first-p
+{
+    color: #ccc;
+}
+.footer i
+{
+    color: #fff;
+    margin-left: 5px;
+}
+.footer ul
+{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.footer ul li
+{
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.footer ul li a
+{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer .foot-icon i
+{
+    display: block;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+.footer .end
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+}
+/*end footer*/
+
+fieldset legend:hover
+{
+    background-color: #9575CD;
+    color: #fff;
+    border-radius: 10px;
+}
